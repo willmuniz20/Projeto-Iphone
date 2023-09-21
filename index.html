@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iphone - Apple</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="circulo"></div>
+    <div class="div-header">
+        <img class="logo-img" src="./logo.png" alt="logo">
+
+        <header class="cabecario">
+            <a class="my-link">Mac</a>
+            <a class="my-link">Ipad</a>
+            <a class="my-link">Iphone</a>
+            <a class="my-link">Watch</a>
+            <a class="my-link">Airpods</a>
+            <a class="my-link">Acessórios</a>
+            <a class="my-link">Suporte</a>
+        </header>
+    </div>
+    <div class="caixa-azul">
+        <div class="div-texto">
+            <h1 class="iphone-titulo">Iphone 14</h1>
+
+            <h2 class="meu-titulo">Tão poderoso. Tão ao seu alcance. </h2>
+
+            <p class="meu-paragrafo">Em dois tamanhos perfeitos.
+                Agora com um toque de <SPAn>Amarelo</SPAn></p>
+
+
+            <h3 class="preco">A partir de R$ 633,25/mes ou R$ 7.599* </h3>
+            <button class="botao">comprar</button>
+
+            <div class="div-button">
+                <p class="escolha-cor">Escolha sua cor:</p>
+                <button onclick="trocaCor('#87CEFA');trocaIphone('./iphone-azul.png')" class="azul troca-cor"></button>
+                <button onclick="trocaCor('#ffff00');trocaIphone('./iphone-amarelo.png')" class="amarelo troca-cor"></button>
+                <button onclick="trocaCor('#f6e5e5');trocaIphone('./iphone-branco.png')" class="branco troca-cor "></button>
+                <button onclick="trocaCor('#000000');trocaIphone('./iphone-preto.png')" class="preto troca-cor"></button>
+                <button onclick="trocaCor('#ff0000');trocaIphone('./iphone-vermelho.png')" class="vermelho troca-cor"></button>
+                <button onclick="trocaCor('#a260d1');trocaIphone('./iphone-roxo.png')" class="roxo troca-cor"></button>
+            </div>
+        </div>
+        <img class="img-princi" src="./iphone-azul.png" alt="iphone-azul">
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>
